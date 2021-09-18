@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgb(50, 203, 230);
+}
+
+.container{
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    padding: 10px;
+    background-color: #ffff;
+    border-radius: 20px;
+}
+
+section h1{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+#form label{
+    margin-bottom: 5px;
+}
+
+#form input{
+    margin-bottom: 20px;
+}
+
+#peso{
+    padding: 5px;
+}
+
+#altura{
+    padding: 5px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgb(11, 90, 121);
+    border: none;
+    transition: background-color 0.5s;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background-color: rgb(22, 140, 187);
+}
+
+.result-true{
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(116, 240, 116);
+}
+
+.result-false{
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(240, 116, 116);
+}
